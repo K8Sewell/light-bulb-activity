@@ -1,11 +1,10 @@
 # Challenge - Light Bulb Activity
 
-In the terminal,
-
-    make sure you're on the desktop and use create-react-app plus your project name
-    cd into your project
-    type atom .
-    take out any starter code you want to remove
+In the terminal, make sure you're on the desktop and 
+* use ```create-react-app``` plus your project name    
+* cd into your project
+* type ```atom .``` (or ```code .``` if you are using Visual Studio)
+* take out any starter code you want to remove and proceed with the user stories below.
 
 ### Light Bulb - User Stories
 * As a user I can see a square on the screen with the word 'off' in the middle.
