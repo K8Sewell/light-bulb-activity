@@ -1,19 +1,35 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div>
+class App extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      light: false
+    }
+  }
+
+  handleClick = () => {
+    this.setState({light: !this.state.light ? true : false})
+  }
+
+  render() {
+    return (
       <div>
-        <h1>Light Bulb Activity</h1>
-        <br />
-        <p>React State Example</p>
+        <div>
+          <h1>Light Bulb Activity</h1>
+          <br />
+          <p>React State Example</p>
+        </div>
+        <div>
+          <div>
+          <p>{!this.state.light ? "OFF" : "ON"}</p>
+          </div>
+          <button onClick = {this.handleClick}>Switch</button>
+        </div>
       </div>
-      <div>
-        <div>OFF</div>
-      </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
