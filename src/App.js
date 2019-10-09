@@ -15,14 +15,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="wrapper">
         <div>
           <h1>Light Bulb Activity</h1>
           <br />
           <p>React State Example</p>
         </div>
         <div>
-          <div>
+          <div id="light-box" onClick = {this.handleClick}>
           <p>{!this.state.light ? "OFF" : "ON"}</p>
           </div>
           <button onClick = {this.handleClick}>Switch</button>
