@@ -4,7 +4,7 @@ In the terminal, make sure you're on the desktop and
 * use ```create-react-app``` plus your project name    
 * cd into your project
 * type ```atom .``` (or ```code .``` if you are using Visual Studio)
-* take out any starter code you want to remove and proceed with the user stories below.
+* take out any starter code you want to remove and proceed with the user stories below
 
 ### Light Bulb - User Stories
 * As a user I can see a square on the screen with the word 'off' in the middle.
@@ -33,7 +33,7 @@ Super Stretch
 After you accept the assignment (or clone this repo), you'll want to install all the npm packages using Yarn:
 
 ```bash
-$ cd ./pig-latin-template
+$ cd ./light-bulb-activity
 $ yarn install
 ```
 If you get an error about Yarn not being found:
