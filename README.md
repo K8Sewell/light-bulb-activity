@@ -1,68 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Challenge - Light Bulb Activity
 
-## Available Scripts
+In the terminal,
 
-In the project directory, you can run:
+    make sure you're on the desktop and use create-react-app plus your project name
+    cd into your project
+    type atom .
+    take out any starter code you want to remove
 
-### `yarn start`
+### Light Bulb - User Stories
+* As a user I can see a square on the screen with the word 'off' in the middle.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* As a user I can click anywhere on the square. When I click the square the words change from 'off' to 'on' and then back 'off' again.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Stretch
 
-### `yarn test`
+* As a user, when I click the box the color goes from white to yellow. (still with the words on or off in the middle)
+Super Stretch
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* As a user, instead of seeing a box, I see a picture of a light switch in the off position and a white light bulb.
 
-### `yarn build`
+* As a user, when I click on the light switch it turns on and the light bulb changes from white to yellow.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Epic Stretch
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* As a user I see multiple different lightbulbs and switches that act independently of each other.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* As a user I can add or remove a light switch/bulb from the webpage.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+After you accept the assignment (or clone this repo), you'll want to install all the npm packages using Yarn:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+$ cd ./pig-latin-template
+$ yarn install
+```
+If you get an error about Yarn not being found:
 
-## Learn More
+```bash
+Command 'yarn' not found, but can be installed with:
+sudo apt install cmdtest
+```
+You can install it with:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ npm install -g yarn
+```
+Then run ```yarn install``` one more time and then you are ready to start a server to run the application:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```bash
+$ yarn start
+```
+Now you're ready to code!
